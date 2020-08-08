@@ -1,0 +1,3078 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_light"
+    tools:context=".MainActivity">
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper14"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_alignTop="@+id/nomePais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="58dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageView1001"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/atlanta" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chicago" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/columbus" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dcunited" />
+
+        <ImageView
+            android:id="@+id/imageView1000"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dallas" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/houston" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/la" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/nerevolution" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/nycity" />
+
+        <ImageView
+            android:id="@+id/imageView1002"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/nyredbull" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/orlando" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/portland" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/seattle" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kansas" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/toronto" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vancouver" />
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper13"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_alignTop="@+id/nomePais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="58dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageView1003"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/americacali" />
+
+        <ImageView
+            android:id="@+id/imageView1004"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/atleticonacional" />
+
+        <ImageView
+            android:id="@+id/imageView1005"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/deportivocali" />
+
+        <ImageView
+            android:id="@+id/imageView1006"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/junior" />
+
+        <ImageView
+            android:id="@+id/imageView1007"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/medellin" />
+
+        <ImageView
+            android:id="@+id/imageView1008"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/oncecaldas" />
+
+        <ImageView
+            android:id="@+id/imageView1009"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/millonarios" />
+
+        <ImageView
+            android:id="@+id/imageView1010"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/santafe" />
+
+        <ImageView
+            android:id="@+id/imageView1011"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/americamx" />
+
+        <ImageView
+            android:id="@+id/imageView1012"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chivas" />
+
+        <ImageView
+            android:id="@+id/imageView1013"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cruzazul" />
+
+        <ImageView
+            android:id="@+id/imageView1014"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/monterrey" />
+
+        <ImageView
+            android:id="@+id/imageView1015"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pachuca" />
+
+        <ImageView
+            android:id="@+id/imageView1016"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pumas" />
+
+        <ImageView
+            android:id="@+id/imageView1017"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/tigres" />
+
+        <ImageView
+            android:id="@+id/imageView1018"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/toluca" />
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper12"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_alignTop="@+id/nomePais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="58dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageView1019"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/penarol" />
+
+        <ImageView
+            android:id="@+id/imageView1020"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/nacional" />
+
+        <ImageView
+            android:id="@+id/imageView1021"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/olimpia" />
+
+        <ImageView
+            android:id="@+id/imageView1022"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cerro" />
+
+        <ImageView
+            android:id="@+id/imageView1023"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/libertad" />
+
+        <ImageView
+            android:id="@+id/imageView1024"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/colocolo" />
+
+        <ImageView
+            android:id="@+id/imageView1025"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/lau" />
+
+        <ImageView
+            android:id="@+id/imageView1026"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/universidadcatolica" />
+
+        <ImageView
+            android:id="@+id/imageView1027"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bolivar" />
+
+        <ImageView
+            android:id="@+id/imageView1028"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/alianzalima" />
+
+        <ImageView
+            android:id="@+id/imageView1029"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sportingcristal" />
+
+        <ImageView
+            android:id="@+id/imageView1030"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cienciano" />
+
+        <ImageView
+            android:id="@+id/imageView1031"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/barcelonaequ" />
+
+        <ImageView
+            android:id="@+id/imageView1032"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/emelec" />
+
+        <ImageView
+            android:id="@+id/imageView1033"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ldu" />
+
+        <ImageView
+            android:id="@+id/imageView1034"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/caracas" />
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper11"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_alignTop="@+id/nomePais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="58dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageView1035"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/argentinosjr" />
+
+        <ImageView
+            android:id="@+id/imageView1036"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sarandi" />
+
+        <ImageView
+            android:id="@+id/imageView1201"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/banfield" />
+
+        <ImageView
+            android:id="@+id/imageView1037"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bocajuniors" />
+
+        <ImageView
+            android:id="@+id/imageView1038"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/colon" />
+
+        <ImageView
+            android:id="@+id/imageView1039"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/estudiantes" />
+
+        <ImageView
+            android:id="@+id/imageView1040"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/independiente" />
+
+        <ImageView
+            android:id="@+id/imageView1041"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/huracan" />
+
+        <ImageView
+            android:id="@+id/imageView1202"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/lanus" />
+
+        <ImageView
+            android:id="@+id/imageView1042"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/newells" />
+
+        <ImageView
+            android:id="@+id/imageView1043"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/racing" />
+
+        <ImageView
+            android:id="@+id/imageView1044"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/riverplate" />
+
+        <ImageView
+            android:id="@+id/imageView1045"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rosariocentral" />
+
+        <ImageView
+            android:id="@+id/imageView1046"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sanlorenzo" />
+
+        <ImageView
+            android:id="@+id/imageView1047"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/talleres" />
+
+        <ImageView
+            android:id="@+id/imageView1048"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/velez" />
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper9"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_alignTop="@+id/nomePais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="58dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageView1049"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/birmigham" />
+
+        <ImageView
+            android:id="@+id/imageView1050"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/blackburn" />
+
+        <ImageView
+            android:id="@+id/imageView1051"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/burnley" />
+
+        <ImageView
+            android:id="@+id/imageView1052"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/brighton" />
+
+        <ImageView
+            android:id="@+id/imageView1053"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/derby" />
+
+        <ImageView
+            android:id="@+id/imageView1054"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fulham" />
+
+        <ImageView
+            android:id="@+id/imageView1055"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/hullcity" />
+
+        <ImageView
+            android:id="@+id/imageView1056"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/middlesbrough" />
+
+        <ImageView
+            android:id="@+id/imageView1057"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/norwich" />
+
+        <ImageView
+            android:id="@+id/imageView1058"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/nottingham" />
+
+        <ImageView
+            android:id="@+id/imageView1059"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/qpr" />
+
+        <ImageView
+            android:id="@+id/imageView1060"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/reading" />
+
+        <ImageView
+            android:id="@+id/imageView1061"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sheffield" />
+
+        <ImageView
+            android:id="@+id/imageView1062"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/stoke" />
+
+        <ImageView
+            android:id="@+id/imageView1063"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/swansea" />
+
+        <ImageView
+            android:id="@+id/imageView1064"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/watford" />
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper10"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_alignTop="@+id/nomePais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="58dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageView1065"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/avai" />
+
+        <ImageView
+            android:id="@+id/imageView1066"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/botafogosp" />
+
+        <ImageView
+            android:id="@+id/imageView1067"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bragantino" />
+
+        <ImageView
+            android:id="@+id/imageView1203"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ceara" />
+
+        <ImageView
+            android:id="@+id/imageView1068"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/coritiba" />
+
+        <ImageView
+            android:id="@+id/imageView1204"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/criciuma" />
+
+        <ImageView
+            android:id="@+id/imageView1069"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/figueirense" />
+
+        <ImageView
+            android:id="@+id/imageView1070"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fortaleza" />
+
+        <ImageView
+            android:id="@+id/imageView1071"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/guarani" />
+
+        <ImageView
+            android:id="@+id/imageView1072"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/juventude" />
+
+        <ImageView
+            android:id="@+id/imageView1073"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/nautico" />
+
+        <ImageView
+            android:id="@+id/imageView1074"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/parana" />
+
+        <ImageView
+            android:id="@+id/imageView1075"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/paysandu" />
+
+        <ImageView
+            android:id="@+id/imageView1076"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pontepreta" />
+
+        <ImageView
+            android:id="@+id/imageView1077"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/santacruz" />
+
+        <ImageView
+            android:id="@+id/imageView1078"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vitoria" />
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper8"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_alignTop="@+id/nomePais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="58dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageView1079"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/zenit" />
+
+        <ImageView
+            android:id="@+id/imageView1080"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cska" />
+
+        <ImageView
+            android:id="@+id/imageView1081"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/krasnodar" />
+
+        <ImageView
+            android:id="@+id/imageView1082"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/spartak" />
+
+        <ImageView
+            android:id="@+id/imageView1200"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/galatasaray" />
+
+        <ImageView
+            android:id="@+id/imageView1083"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fenerbahce" />
+
+        <ImageView
+            android:id="@+id/imageView1084"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/besiktas" />
+
+        <ImageView
+            android:id="@+id/imageView1085"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/olympiakos" />
+
+        <ImageView
+            android:id="@+id/imageView1086"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/estrelavermelha" />
+
+        <ImageView
+            android:id="@+id/imageView1087"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/partizan" />
+
+        <ImageView
+            android:id="@+id/imageView1088"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ludogorets" />
+
+        <ImageView
+            android:id="@+id/imageView1089"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dinamozagreb" />
+
+        <ImageView
+            android:id="@+id/imageView1090"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/shaktar" />
+
+        <ImageView
+            android:id="@+id/imageView1091"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dinamokiev" />
+
+        <ImageView
+            android:id="@+id/imageView1205"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/spartapraga" />
+
+        <ImageView
+            android:id="@+id/imageView1092"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/apoel" />
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper7"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_alignTop="@+id/nomePais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="58dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageView1093"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/benfica" />
+
+        <ImageView
+            android:id="@+id/imageView1199"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/porto" />
+
+        <ImageView
+            android:id="@+id/imageView1198"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sporting" />
+
+        <ImageView
+            android:id="@+id/imageView1197"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/braga" />
+
+        <ImageView
+            android:id="@+id/imageView1196"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/guimaraes" />
+
+        <ImageView
+            android:id="@+id/imageView1195"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ajax" />
+
+        <ImageView
+            android:id="@+id/imageView1194"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/feyenoord" />
+
+        <ImageView
+            android:id="@+id/imageView1193"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/psv" />
+
+        <ImageView
+            android:id="@+id/imageView1192"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/celtic" />
+
+        <ImageView
+            android:id="@+id/imageView1206"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rangers" />
+
+        <ImageView
+            android:id="@+id/imageView1191"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rosemborg" />
+
+        <ImageView
+            android:id="@+id/imageView1190"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/malmo" />
+
+        <ImageView
+            android:id="@+id/imageView1189"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/copenhague" />
+
+        <ImageView
+            android:id="@+id/imageView1188"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rbsalzburg" />
+
+        <ImageView
+            android:id="@+id/imageView1207"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rapidviena" />
+
+        <ImageView
+            android:id="@+id/imageView1186"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/basel" />
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper6"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_alignTop="@+id/nomePais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="58dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageView1185"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bordeaux" />
+
+        <ImageView
+            android:id="@+id/imageView1184"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/lille" />
+
+        <ImageView
+            android:id="@+id/imageView1183"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/lyon" />
+
+        <ImageView
+            android:id="@+id/imageView1182"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/monaco" />
+
+        <ImageView
+            android:id="@+id/imageView1181"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/montpellier" />
+
+        <ImageView
+            android:id="@+id/imageView1180"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/nantes" />
+
+        <ImageView
+            android:id="@+id/imageView1208"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/nice" />
+
+        <ImageView
+            android:id="@+id/imageView1179"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/marseille" />
+
+        <ImageView
+            android:id="@+id/imageView1178"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/psg" />
+
+        <ImageView
+            android:id="@+id/imageView1177"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/reims" />
+
+        <ImageView
+            android:id="@+id/imageView1176"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rennes" />
+
+        <ImageView
+            android:id="@+id/imageView1175"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/stetienne" />
+
+        <ImageView
+            android:id="@+id/imageView1174"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/toulouse" />
+
+        <ImageView
+            android:id="@+id/imageView1173"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/anderlecht" />
+
+        <ImageView
+            android:id="@+id/imageView1172"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/brugge" />
+
+        <ImageView
+            android:id="@+id/imageView1209"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/liege" />
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper5"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_alignTop="@+id/nomePais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="58dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageView1171"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/borussia" />
+
+        <ImageView
+            android:id="@+id/imageView1170"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dortmund" />
+
+        <ImageView
+            android:id="@+id/imageView1169"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bayern" />
+
+        <ImageView
+            android:id="@+id/imageView1168"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/leverkusen" />
+
+        <ImageView
+            android:id="@+id/imageView1167"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/colonia" />
+
+        <ImageView
+            android:id="@+id/imageView1166"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/frankfurt" />
+
+        <ImageView
+            android:id="@+id/imageView1165"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/freiburg" />
+
+        <ImageView
+            android:id="@+id/imageView1164"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/hamburgo" />
+
+        <ImageView
+            android:id="@+id/imageView1210"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/hannover96" />
+
+        <ImageView
+            android:id="@+id/imageView1163"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/hertha" />
+
+        <ImageView
+            android:id="@+id/imageView1162"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/hoffeinheim" />
+
+        <ImageView
+            android:id="@+id/imageView1161"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/leipzig" />
+
+        <ImageView
+            android:id="@+id/imageView1160"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/schalke" />
+
+        <ImageView
+            android:id="@+id/imageView1211"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/stuttgart" />
+
+        <ImageView
+            android:id="@+id/imageVie1159"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/werderbremen" />
+
+        <ImageView
+            android:id="@+id/imageView1158"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/wolfsburg" />
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper4"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_alignTop="@+id/nomePais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="58dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageView1157"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/athleticbilbao" />
+
+        <ImageView
+            android:id="@+id/imageView1156"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/atleticomadrid" />
+
+        <ImageView
+            android:id="@+id/imageView1155"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/barcelona" />
+
+        <ImageView
+            android:id="@+id/imageView1154"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/celta" />
+
+        <ImageView
+            android:id="@+id/imageView1153"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/espanyol" />
+
+        <ImageView
+            android:id="@+id/imageView1152"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/getafe" />
+
+        <ImageView
+            android:id="@+id/imageView1212"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/lacoruna" />
+
+        <ImageView
+            android:id="@+id/imageView1151"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/levante" />
+
+        <ImageView
+            android:id="@+id/imageView1213"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/osasuna" />
+
+        <ImageView
+            android:id="@+id/imageView1150"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/realbetis" />
+
+        <ImageView
+            android:id="@+id/imageView1149"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/realmadrid" />
+
+        <ImageView
+            android:id="@+id/imageView1148"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/realsociedad" />
+
+        <ImageView
+            android:id="@+id/imageView1147"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sevilla" />
+
+        <ImageView
+            android:id="@+id/imageView1146"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/valencia" />
+
+        <ImageView
+            android:id="@+id/imageView1145"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/valladolid" />
+
+        <ImageView
+            android:id="@+id/imageView1144"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/villareal" />
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper3"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_alignTop="@+id/nomePais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="58dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageView1143"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/atalanta" />
+
+        <ImageView
+            android:id="@+id/imageView1142"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bologna" />
+
+        <ImageView
+            android:id="@+id/imageView1141"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cagliari" />
+
+        <ImageView
+            android:id="@+id/imageView1140"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fiorentina" />
+
+        <ImageView
+            android:id="@+id/imageView1139"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/genoa" />
+
+        <ImageView
+            android:id="@+id/imageView1138"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/inter" />
+
+        <ImageView
+            android:id="@+id/imageView1137"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/juventus" />
+
+        <ImageView
+            android:id="@+id/imageView1136"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/milan" />
+
+        <ImageView
+            android:id="@+id/imageView1135"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/lazio" />
+
+        <ImageView
+            android:id="@+id/imageView1134"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/napoli" />
+
+        <ImageView
+            android:id="@+id/imageView1133"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/parma" />
+
+        <ImageView
+            android:id="@+id/imageView1132"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/roma" />
+
+        <ImageView
+            android:id="@+id/imageView1131"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sampdoria" />
+
+        <ImageView
+            android:id="@+id/imageView1130"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sassuolo" />
+
+        <ImageView
+            android:id="@+id/imageView1129"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/torino" />
+
+        <ImageView
+            android:id="@+id/imageView1128"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/udinese" />
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper2"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_alignTop="@+id/nomePais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="58dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageView1127"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/arsenal" />
+
+        <ImageView
+            android:id="@+id/imageView1126"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/astonvilla" />
+
+        <ImageView
+            android:id="@+id/imageView1125"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chelsea" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/crystalpalace" />
+
+        <ImageView
+            android:id="@+id/imageView1124"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/everton" />
+
+        <ImageView
+            android:id="@+id/imageView1123"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/leeds" />
+
+        <ImageView
+            android:id="@+id/imageView1122"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/leicester" />
+
+        <ImageView
+            android:id="@+id/imageView1121"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/liverpool" />
+
+        <ImageView
+            android:id="@+id/imageView1120"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/manchestercity" />
+
+        <ImageView
+            android:id="@+id/imageView1119"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/manchesterunited" />
+
+        <ImageView
+            android:id="@+id/imageView1118"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/newcastle" />
+
+        <ImageView
+            android:id="@+id/imageView1214"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/tottenham" />
+
+        <ImageView
+            android:id="@+id/imageView1216"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/southampton" />
+
+        <ImageView
+            android:id="@+id/imageView1117"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/westbromwich" />
+
+        <ImageView
+            android:id="@+id/imageView1116"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/westham" />
+
+        <ImageView
+            android:id="@+id/imageView1219"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/wolves" />
+
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/botaoAntes2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignStart="@+id/botaoAntes"
+        android:layout_alignTop="@+id/nomePais"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="-103dp"
+        android:background="@drawable/botao_left"
+        android:onClick="selecionarBotao"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botaoDepois2"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_alignTop="@+id/botaoAntes2"
+        android:layout_alignEnd="@+id/botaoDepois"
+        android:layout_marginTop="-7dp"
+        android:layout_marginEnd="-5dp"
+        android:background="@drawable/botao_right" />
+
+    <TextView
+        android:id="@+id/nomePais"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewFlipper0"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Brasileirão"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/nomeTime"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewFlipper13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Nome"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/botaoAntes"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignStart="@+id/viewFlipper1"
+        android:layout_alignTop="@+id/nomeTime"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-97dp"
+        android:layout_marginTop="-117dp"
+        android:background="@drawable/botao_left"
+        android:onClick="selecionarBotao"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botaoDepois"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_alignTop="@+id/botaoAntes"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="-4dp"
+        android:layout_toEndOf="@+id/botaoAntes"
+        android:background="@drawable/botao_right"
+        android:onClick="selecionarBotao"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botaoSelecao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="37dp"
+        android:onClick="musicaBotao"
+        android:text="Avançar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botaoTime"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewFlipper13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-18dp"
+        android:layout_marginTop="77dp"
+        android:onClick="onClick"
+        android:text="Selecionar" />
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper0"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp">
+
+        <ImageView
+            android:id="@+id/imageView1115"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/brasileirao" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/premierleague" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/seriea" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/laliga" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bundesliga" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ligue1" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/liga1" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/leste" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/championship" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/brasilserieb" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logoargentina" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logosulamericana" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logocolombia" />
+
+    </ViewFlipper>
+
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper1"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_alignTop="@+id/nomePais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="58dp">
+
+        <ImageView
+            android:id="@+id/imageView1113"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/palmeiras" />
+
+        <ImageView
+            android:id="@+id/imageView1112"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/atleticomg" />
+
+        <ImageView
+            android:id="@+id/imageView1111"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/atleticopr" />
+
+        <ImageView
+            android:id="@+id/imageView1110"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bahia" />
+
+        <ImageView
+            android:id="@+id/imageView1114"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/botafogo" />
+
+        <ImageView
+            android:id="@+id/imageView1109"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/corinthians" />
+
+        <ImageView
+            android:id="@+id/imageView1108"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cruzeiro" />
+
+        <ImageView
+            android:id="@+id/imageView1107"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/flamengo" />
+
+        <ImageView
+            android:id="@+id/imageView1106"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fluminense" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/goias" />
+
+        <ImageView
+            android:id="@+id/imageView1104"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/gremio" />
+
+        <ImageView
+            android:id="@+id/imageView1105"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/internacional" />
+
+        <ImageView
+            android:id="@+id/imageView1103"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/santos" />
+
+        <ImageView
+            android:id="@+id/imageView1102"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/saopaulo" />
+
+        <ImageView
+            android:id="@+id/imageView1101"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sport" />
+
+        <ImageView
+            android:id="@+id/imageView1100"
+            android:layout_width="166dp"
+            android:layout_height="163dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vasco" />
+
+    </ViewFlipper>
+
+</RelativeLayout>

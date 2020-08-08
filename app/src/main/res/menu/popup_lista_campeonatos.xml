@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+        android:title="Brasileirão"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Premier League"/>
+    <item
+        android:id="@+id/item3"
+        android:title="Serie A TIM"/>
+    <item
+        android:id="@+id/item4"
+        android:title="La Liga"/>
+    <item
+        android:id="@+id/item5"
+        android:title="Bundesliga"/>
+    <item
+        android:id="@+id/item6"
+        android:title="Ligue 1"/>
+    <item
+        android:id="@+id/item7"
+        android:title="Liga Europeia"/>
+    <item
+        android:id="@+id/item8"
+        android:title="Leste Europeu"/>
+    <item
+        android:id="@+id/item9"
+        android:title="Championship"/>
+    <item
+        android:id="@+id/item10"
+        android:title="Série B"/>
+    <item
+        android:id="@+id/item11"
+        android:title="Campeonato Argentina"/>
+    <item
+        android:id="@+id/item12"
+        android:title="Sul Americano"/>
+    <item
+        android:id="@+id/item13"
+        android:title="Liga Colômbia MX"/>
+</menu>

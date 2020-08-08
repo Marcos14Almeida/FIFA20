@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityTabela">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="373dp"
+        android:layout_height="348dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pontos " />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GM " />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GS " />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SG " />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valor Equipe" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/nomeTime17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1-" />
+
+            <TextView
+                android:id="@+id/nomeTime1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/nomeTime18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2-" />
+
+            <TextView
+                android:id="@+id/nomeTime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/nomeTime19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3-" />
+
+            <TextView
+                android:id="@+id/nomeTime3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row4"
+            android:layout_width="match_parent"
+            android:layout_height="230dp">
+
+            <TextView
+                android:id="@+id/nomeTime20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4-" />
+
+            <TextView
+                android:id="@+id/nomeTime4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/nomeTime21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5-" />
+
+            <TextView
+                android:id="@+id/nomeTime5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/posicao6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6-" />
+            <TextView
+                android:id="@+id/nomeTime6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/posicao7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7-" />
+            <TextView
+                android:id="@+id/nomeTime7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/posicao8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8-" />
+            <TextView
+                android:id="@+id/nomeTime8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/posicao9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9-" />
+            <TextView
+                android:id="@+id/nomeTime9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/posicao10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10-" />
+            <TextView
+                android:id="@+id/nomeTime10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/posicao11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11-" />
+            <TextView
+                android:id="@+id/nomeTime11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/posicao12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12-" />
+            <TextView
+                android:id="@+id/nomeTime12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/posicao13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13-" />
+            <TextView
+                android:id="@+id/nomeTime13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/posicao14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14-" />
+            <TextView
+                android:id="@+id/nomeTime14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/posicao15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15-" />
+            <TextView
+                android:id="@+id/nomeTime15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/posicao16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16-" />
+            <TextView
+                android:id="@+id/nomeTime16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nomeTime" />
+
+            <TextView
+                android:id="@+id/pontosGanhos16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/golsMarcados16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/golsSofridos16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/saldoGols16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valorEquipe16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="Tabela de Classificação"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textoRodada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="Rodada"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textoConfrontos"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="@+id/tableLayout"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <TextView
+        android:id="@+id/textoConfrontos2"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="@+id/textoConfrontos"
+        app:layout_constraintTop_toBottomOf="@+id/textoConfrontos" />
+
+    <TextView
+        android:id="@+id/textoConfrontos3"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="@+id/textoConfrontos"
+        app:layout_constraintTop_toBottomOf="@+id/textoConfrontos2" />
+
+    <TextView
+        android:id="@+id/textoConfrontos4"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="@+id/textoConfrontos"
+        app:layout_constraintTop_toBottomOf="@+id/textoConfrontos3" />
+
+    <TextView
+        android:id="@+id/textoConfrontos5"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="@+id/textoConfrontos"
+        app:layout_constraintTop_toBottomOf="@+id/textoConfrontos4" />
+
+    <TextView
+        android:id="@+id/textoConfrontos6"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="@+id/textoConfrontos"
+        app:layout_constraintTop_toBottomOf="@+id/textoConfrontos5" />
+
+    <TextView
+        android:id="@+id/textoConfrontos7"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="@+id/textoConfrontos"
+        app:layout_constraintTop_toBottomOf="@+id/textoConfrontos6" />
+
+    <TextView
+        android:id="@+id/textoConfrontos8"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="@+id/textoConfrontos"
+        app:layout_constraintTop_toBottomOf="@+id/textoConfrontos7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

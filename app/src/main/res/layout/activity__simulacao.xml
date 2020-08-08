@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_simulacao"
+    tools:context=".Activity_Simulacao">
+
+    <ImageView
+        android:id="@+id/fundoChampions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:alpha="0.6"
+        android:scaleType="fitXY"
+        android:src="@drawable/fundochampions"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/fundolibertadores"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="-22dp"
+        android:layout_marginEnd="4dp"
+        android:alpha="0.7"
+        android:scaleType="fitXY"
+        android:src="@drawable/fundolibertadores"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/botaoMenu"
+        android:layout_width="155dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="155dp"
+        android:onClick="abrirActivity_Menu"
+        android:text="Voltar Menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botaoProximo"
+        android:layout_width="155dp"
+        android:layout_height="51dp"
+        android:layout_below="@+id/botaoMenu"
+        android:layout_alignStart="@+id/botaoMenu"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="8dp"
+        android:onClick="abrirActivity_Simulacao"
+        android:text="Próxima Rodada"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/botaoMenu" />
+
+    <ImageView
+        android:id="@+id/LogoSimulacaoRival"
+        android:layout_width="134dp"
+        android:layout_height="105dp"
+        android:layout_alignTop="@+id/imageLogo"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/imageLogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageLogo"
+        app:srcCompat="@drawable/santos" />
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="134dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/palmeiras" />
+
+    <TextView
+        android:id="@+id/textoPlacar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageLogo"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/imageLogo"
+        android:gravity="center"
+        android:text="3 X 1"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/LogoSimulacaoRival"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageLogo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textoRodada"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@+id/imageLogo"
+        android:gravity="center"
+        android:text="Rodada"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textoPlacar"
+        app:layout_constraintStart_toStartOf="@+id/textoPlacar" />
+
+    <ImageView
+        android:id="@+id/logoCampeonato"
+        android:layout_width="54dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="162dp"
+        android:src="@drawable/brasileirao" />
+
+    <ImageView
+        android:id="@+id/Estadio"
+        android:layout_width="match_parent"
+        android:layout_height="382dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="334dp"
+        android:layout_marginEnd="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ajax0" />
+
+    <TextView
+        android:id="@+id/textoCronometro"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/textoPlacar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_alignEnd="@+id/textView16"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:max="100"
+        android:progress="50"
+        android:scrollbarSize="4dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="275dp"
+        android:text="Velocidade do Jogo:" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="14dp"
+        android:orientation='horizontal'>
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="278dp"
+        android:layout_marginEnd="12dp"
+        android:text="Defesa/ Normal /Ataque"
+        android:textSize="11sp" />
+
+</RelativeLayout>

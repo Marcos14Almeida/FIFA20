@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FIFA20</string>
+    <string name="title_aviso">Aviso</string>
+    <string name="texto_de_aviso">Há Campos vazios</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

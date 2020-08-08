@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMudarClube">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="156dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Propostas"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagemProposta6"
+        android:layout_width="152dp"
+        android:layout_height="134dp"
+        android:onClick="imagem6"
+        app:layout_constraintStart_toStartOf="@+id/imagemProposta2"
+        app:layout_constraintTop_toTopOf="@+id/imagemProposta5"
+        app:srcCompat="@drawable/ajax" />
+
+    <ImageView
+        android:id="@+id/imagemProposta5"
+        android:layout_width="152dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="70dp"
+        android:onClick="imagem5"
+        app:layout_constraintStart_toStartOf="@+id/imagemProposta1"
+        app:layout_constraintTop_toBottomOf="@+id/imagemProposta3"
+        app:srcCompat="@drawable/ajax" />
+
+    <ImageView
+        android:id="@+id/imagemProposta4"
+        android:layout_width="152dp"
+        android:layout_height="134dp"
+        android:onClick="imagem4"
+        app:layout_constraintStart_toStartOf="@+id/imagemProposta2"
+        app:layout_constraintTop_toTopOf="@+id/imagemProposta3"
+        app:srcCompat="@drawable/ajax" />
+
+    <ImageView
+        android:id="@+id/imagemProposta3"
+        android:layout_width="152dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="70dp"
+        android:onClick="imagem3"
+        app:layout_constraintStart_toStartOf="@+id/imagemProposta1"
+        app:layout_constraintTop_toBottomOf="@+id/imagemProposta1"
+        app:srcCompat="@drawable/ajax" />
+
+    <ImageView
+        android:id="@+id/imagemProposta2"
+        android:layout_width="152dp"
+        android:layout_height="134dp"
+        android:layout_marginEnd="36dp"
+        android:onClick="imagem2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imagemProposta1"
+        app:srcCompat="@drawable/ajax" />
+
+    <ImageView
+        android:id="@+id/imagemProposta1"
+        android:layout_width="152dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="64dp"
+        android:onClick="imagem1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ajax" />
+
+    <TextView
+        android:id="@+id/textoProposta6"
+        android:layout_width="152dp"
+        android:layout_height="69dp"
+        android:gravity="center"
+        android:text="Nome/Posição"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/imagemProposta2"
+        app:layout_constraintTop_toBottomOf="@+id/imagemProposta6" />
+
+    <TextView
+        android:id="@+id/textoProposta5"
+        android:layout_width="153dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="Nome/Posição"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/imagemProposta1"
+        app:layout_constraintTop_toBottomOf="@+id/imagemProposta5" />
+
+    <TextView
+        android:id="@+id/textoProposta4"
+        android:layout_width="153dp"
+        android:layout_height="69dp"
+        android:gravity="center"
+        android:text="Nome/Posição"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/imagemProposta2"
+        app:layout_constraintTop_toBottomOf="@+id/imagemProposta4" />
+
+    <TextView
+        android:id="@+id/textoProposta3"
+        android:layout_width="153dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="Nome/Posição"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/imagemProposta1"
+        app:layout_constraintTop_toBottomOf="@+id/imagemProposta3" />
+
+    <TextView
+        android:id="@+id/textoProposta2"
+        android:layout_width="153dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="Nome/Posição"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/imagemProposta2"
+        app:layout_constraintTop_toBottomOf="@+id/imagemProposta1" />
+
+    <TextView
+        android:id="@+id/textoProposta1"
+        android:layout_width="153dp"
+        android:layout_height="71dp"
+        android:gravity="center"
+        android:text="Nome/Posição"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/imagemProposta1"
+        app:layout_constraintTop_toBottomOf="@+id/imagemProposta1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:onClick="abrirActivityMenu"
+        android:text="Menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoProposta6" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="164dp"
+        android:layout_height="43dp"
+        android:text="*Para Aceitar a proposta clique na Imagem"
+        app:layout_constraintStart_toStartOf="@+id/imagemProposta1"
+        app:layout_constraintTop_toBottomOf="@+id/textoProposta5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout"
+    tools:context=".Activity4">
+
+    <TextView
+        android:id="@+id/textoAno"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="41dp"
+        android:text="Ano:" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/botaoTabela"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="0dp"
+        android:onClick="abrirActivityHistorico"
+        android:text="Histórico" />
+
+    <Button
+        android:id="@+id/botaoJogar"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="146dp"
+        android:onClick="abrirActivity_Simulacao"
+        android:text="Jogar" />
+
+    <Button
+        android:id="@+id/botaoTabela"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/botaoJogar"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="197dp"
+        android:onClick="abrirActivityTabela"
+        android:text="Tabela" />
+
+    <Button
+        android:id="@+id/botaoMudarClube"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="250dp"
+        android:onClick="abrirActivityJogadores"
+        android:text="Mudar de Clube" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/botaoTabela"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="199dp"
+        android:layout_marginTop="251dp"
+        android:layout_marginEnd="0dp"
+        android:onClick="abrirActivityCompras"
+        android:text="COMPRAS" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="300dp"
+        android:onClick="abrirActivityChampions"
+        android:text="Internacional"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textoValorEquipe"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textoDinheiro"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="103dp"
+        android:text="Valor da Equipe: " />
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="108dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="160dp"
+        app:srcCompat="@drawable/palmeiras" />
+
+    <ImageView
+        android:id="@+id/Uniforme"
+        android:layout_width="142dp"
+        android:layout_height="157dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="273dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="-4dp"
+        app:srcCompat="@drawable/palmeiras1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="27dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textoDinheiro"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="82dp"
+        android:text="Dinheiro: " />
+
+    <TextView
+        android:id="@+id/textoPtsEquipe"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textoDinheiro"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="62dp"
+        android:text="Pts da Equipe: " />
+
+    <TextView
+        android:id="@+id/textoPontos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="282dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="15dp"
+        android:textColor="#000000"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/textoCampeao"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_below="@+id/textoPontos"
+        android:layout_alignStart="@+id/textoPontos"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-27dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="13dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="CAMPEÃO"
+        android:textColor="#FFC107"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+    <RatingBar
+        android:id="@+id/estrelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Estadio"
+        android:layout_alignStart="@+id/Estadio"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:isIndicator="true" />
+
+    <ImageView
+        android:id="@+id/Estadio"
+        android:layout_width="346dp"
+        android:layout_height="191dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="30dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/palmeiras0" />
+
+    <ImageView
+        android:id="@+id/logoAdversario"
+        android:layout_width="51dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/textoProximoAdversario2"
+        android:layout_alignStart="@+id/textoProximoAdversario2"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/textoProximoAdversario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textoProximoAdversario2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="2dp"
+        android:gravity="center"
+        android:text="Champions League" />
+
+    <TextView
+        android:id="@+id/textoProximoAdversario2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="364dp"
+        android:gravity="center"
+        android:text="Próximo Adversário:" />
+
+    <TextView
+        android:id="@+id/textoClassificacao"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textinho"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text="3º"
+        android:textColor="#000000"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textinho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="364dp"
+        android:gravity="center"
+        android:text="Classificacão:" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="366dp"
+        android:layout_marginEnd="25dp"
+        android:text="Pontos Ganhos:" />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="95dp"
+        android:layout_height="235dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="127dp" />
+
+    <TextView
+        android:id="@+id/textoExpectativa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textinho"
+        android:layout_alignStart="@+id/textinho"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="62dp"
+        android:text="Expectativa:"
+        android:textSize="12sp" />
+
+</RelativeLayout>

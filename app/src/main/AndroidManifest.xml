@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.teste1">
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.gyroscope"
+        android:required="true" />
+
+    <application
+        android:name=".GlobalClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/champions"
+        android:label="Teste1"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity_Calendario"></activity>
+        <activity android:name=".ActivityMudarClube" />
+        <activity android:name=".ActivityTabInternacional" />
+        <activity android:name=".ActivityMataMataChampions" />
+        <activity android:name=".ActivityResultadosChampions" />
+        <activity android:name=".ActivityChampionsTabela" />
+        <activity android:name=".ActivityHistorico" />
+        <activity android:name=".ActivityJogadores" />
+        <activity android:name=".ActivityTabela" />
+        <activity android:name=".Activity_Simulacao" />
+        <activity
+            android:name=".Activity4"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".activity_3" />
+        <activity android:name=".Activity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
