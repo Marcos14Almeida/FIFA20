@@ -15,6 +15,7 @@ copie o projeto digiando no terminal:
 
 Depois rode o código pelo terminal
 
+## Screenshots
 
 <p align="center">
   <img src="https://github.com/Marcos14Almeida/FIFA20/blob/master/screenshots/screenshot1.jpg" width="200" title="Screenshot">
@@ -23,5 +24,3 @@ Depois rode o código pelo terminal
   <img src="https://github.com/Marcos14Almeida/FIFA20/blob/master/screenshots/screenshot4.jpg" width="200" title="Screenshot">
   </a>
 </p> 
-
-<h4 align="center">Screenshots</h4>
